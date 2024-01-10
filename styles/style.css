@@ -1,0 +1,221 @@
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Inter', sans-serif; */
+
+}
+
+.fixed_width {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.join_now_btn {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: 0;
+    padding: 16px 32px;
+    margin-top: 40px;
+
+}
+
+.join_now_btn a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* shared styles end */
+/* header section styles */
+.header {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/images/banner-image.png');
+    background-repeat: no-repeat;
+    color: #FFF;
+    margin: 30px auto 120px;
+    border-radius: 16px;
+}
+
+.header_content {
+    padding: 170px 350px;
+}
+
+.header_title {
+    font-size: 32px;
+}
+
+.header_content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* offer section styles */
+.offer_section {
+    text-transform: uppercase;
+    margin-bottom: 120px;
+}
+
+.off_text {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.offer_section .holiday_deals_text {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer_section .category_text {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer_section img {
+    width: 800px;
+    height: 500px;
+    margin-top: 45px;
+}
+
+/* welcome section styles */
+.welcome_section {
+    margin-bottom: 120px;
+}
+
+.welcome_container {
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/images/vector.png");
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 120px;
+    border-radius: 16px;
+}
+
+.welcome_text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+
+.welcome_text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* party info section styles */
+.party_info {
+    margin-bottom: 120px;
+}
+
+.party_info_container {
+    padding: 120px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.party_info h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.party_info_name {
+    color: #F00;
+}
+
+.party_info .join_now_btn {
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* coming soon section */
+.coming_soon_section {
+    margin-bottom: 120px;
+}
+
+.coming_soon_container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.coming_soon_column {
+    width: 30%;
+}
+
+.coming_soon_content h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming_soon_content h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.coming_soon_content p,
+.coming_soon_year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.coming_soon_img{
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 10px;
+}
+.coming_soon_year h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming_soon_year img{
+    margin-top: 40px;
+}
+/* Holiday sale price offer section styles */
+.sale_offer_section{
+    margin-bottom: 120px;
+}
+.sale_offer_content{
+    width: 70%;
+    margin: 20px auto;
+}
