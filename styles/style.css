@@ -27,6 +27,7 @@
     border: 0;
     padding: 16px 32px;
     margin-top: 40px;
+    cursor: pointer;
 
 }
 
@@ -223,8 +224,9 @@
 .sale_offer_container {
     background-image: url("../resources/images/rectangle_two.png");
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position:left bottom;
     position: relative;
+    
 }
 
 .sale_offer_content {
@@ -266,6 +268,11 @@
     right: 0px;
     bottom: 229px;
 
+}
+.discount_img{
+    position: absolute;
+    right: 280px;
+    bottom: 300px;
 }
 
 /* portfolio section design */
@@ -312,6 +319,7 @@
 .portfolio_img img:hover {
     border: 3px solid #F00;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* Subscribe letter section style */
@@ -352,7 +360,6 @@
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     padding-left: 20px;
-    margin: 0;
 }
 
 .letter_input input[type="submit"] {
@@ -367,5 +374,44 @@
     height: 70px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    margin: 0;
+    cursor: pointer;
+
 }
+/* footer section styles */
+.footer_section{
+    width: 100%;
+    background: #070211;
+}
+.contact_section{
+    padding: 120px;
+}
+.contact_section .web_info, .footer_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.web_info .address, .web_info .number_web, .footer_text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.number_web a, .footer_text a{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 10px;
+}
+.social_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+/* .footer_text{
+    display: flex;
+    justify-content: space-between;
+
+} */
