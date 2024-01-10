@@ -317,7 +317,6 @@
 }
 
 .portfolio_img img:hover {
-    border: 3px solid #F00;
     transform: scale(1.2);
     cursor: pointer;
 }
