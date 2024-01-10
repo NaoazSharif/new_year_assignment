@@ -223,7 +223,7 @@
 .sale_offer_container {
     background-image: url("../resources/images/rectangle_two.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:left bottom;
     position: relative;
 }
 
