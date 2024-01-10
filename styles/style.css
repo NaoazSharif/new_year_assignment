@@ -223,7 +223,7 @@
 .sale_offer_container {
     background-image: url("../resources/images/rectangle_two.png");
     background-repeat: no-repeat;
-    background-position:left bottom;
+    background-position: left bottom;
     position: relative;
 }
 
@@ -266,4 +266,106 @@
     right: 0px;
     bottom: 229px;
 
+}
+
+/* portfolio section design */
+.portfolio_section {
+    margin-bottom: 120px;
+}
+
+.portfolio_container h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio_container h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    line-height: 100px;
+
+}
+
+.portfolio_container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.portfolio_container .portfolio_img {
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+
+.portfolio_img img {
+    border-radius: 16px;
+    background: lightgray -195.366px 0px / 156.077% 100% no-repeat;
+    transition: all 1s;
+}
+
+.portfolio_img img:hover {
+    border: 3px solid #F00;
+    transform: scale(1.2);
+}
+
+/* Subscribe letter section style */
+.letter_section {
+    margin-bottom: 120px;
+
+}
+
+.letter_container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 120px;
+}
+
+.letter_container h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.letter_container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.letter_input {
+    margin-top: 40px;
+}
+
+.letter_input input[type="text"] {
+    width: 650px;
+    height: 70px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.letter_input input[type="submit"] {
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 210px;
+    height: 70px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin: 0;
 }
